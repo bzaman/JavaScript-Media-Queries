@@ -17,11 +17,11 @@ function mediaQuery(minMaxWidth = 'min', measure = 768, callBack) {
 // Call and do your stuff...
 
  mediaQuery('max', 767, function(){
-   console.log('max-test');
+   console.log('max test...');
  });
 
  mediaQuery('min', 900, function(){
-   console.log('min-900');
+   console.log('min test...');
  });
 
 ```
